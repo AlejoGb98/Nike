@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #91F5AD;
+}
+
+.logoNike
+{
+    margin-left: 100px;
+}
+
+.logoNike img
+{
+    width: auto;
+    height: 150px;
+}
+
+
+.catalogoGeneral
+{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 30px;
+    margin: 120px 100px;
+    padding: 0 20px;
+
+}
+
+.filtros p
+{
+    margin: 10px 0;
+}
+
+
+.calzados
+{
+    margin-left: 80px;
+    height: 72vh;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 20px;
+    overflow-y: auto;
+
+}
+
+.cardProducto
+{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+    width: auto;
+    background-color: #C2F812;
+    border-radius: 25px;
+}
+
+.imagenProducto
+{
+    width: 100%;
+    height: auto;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.nombreYPrecio
+{
+    display: flex;
+    margin-top: 25px;
+
+}
+
+.nombreCalzado
+{
+    font-size: 20px;
+    margin-top: 12px;
+    margin-right: 40px;
+}
+
+.precioCalzado
+{
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+.talles
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.botonTalle
+{
+    height: 25px;
+    width: 35px;
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    border: 0px;
+    border-radius: 25px 25px;
+    transition: all .5s ease-in-out;
+}
+
+.botonTalleSelc
+{
+    background-color: rgb(36, 147, 221);
+}
+
+
+.botonTalle:hover
+{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+.botonAgregarCarrito
+{
+    margin-top:12%;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    border: 0px;
+    background-color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .6s ease-in-out
+}
+
+.botonAgregarCarrito:hover
+{
+    transform: scale(1.05);
+    transform-origin: top center;
+}
+
+.botonAgregarCarrito p
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;    
+    margin-left: 35px;
+}
+
+.botonAgregarCarrito img
+{
+    height: auto;
+    width: 25px;
+}
+
+
+
+.carrito
+{
+    margin-top: 80px;
+    height: 200px;
+    width: auto;
+}
+
+.productosEnCarrito
+{
+    margin: 20px;
+}
+
+.productosEnCarrito
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.iconoBorrar
+{
+    cursor: pointer;
+    width: auto;
+    height: 25px;
+}
+
+.toastifyAlert
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
